@@ -1,0 +1,56 @@
+local path = "__tarantulator__"
+
+data:extend({
+    {
+        name = 'tarantulator-ammo',
+        type = 'ammo-category',
+    },
+    {
+        type = 'ammo',
+        name = 'tarantulator-railgun-shell',
+        subgroup = 'ammo',
+        icon = path .. '/graphics/icons/railgun-ammo.png',
+        icon_size = 64, icon_mipmaps = 4,
+        flags = nil,
+        order = 'd[explosive-cannon-shell]-d[tarantulator]',
+        stack_size = 100,
+        magazine_size = 1,
+        reload_time = 0,
+        ammo_category = 'tarantulator-ammo',
+        force_condition = 'enemy',
+        collision_mask = {
+            layers = {
+                not_colliding_with_itself = true,
+                tarantulator = true,
+            }
+        },
+        ammo_type = {
+            target_type = "position",
+            action = {
+                type = 'line',
+                range = 200,
+                width = 2,
+                source_effects = {
+                    entity_name = 'tarantulator-beam',
+                    type = 'create-explosion',
+                    offsets = {{0, 0}},
+                },
+                action_delivery = {
+                    type = 'projectile',
+                    projectile = 'tarantulator-railgun-shell',
+                    starting_speed = 8.0,
+                    target_effects = {
+                        {
+                            entity_name = 'big-explosion',
+                            type = 'create-entity',
+                        },
+                        {
+                            type = "script",
+                            effect_id = "tarantulator-line-damage",
+                        },
+                    }
+                }
+            }
+        }
+    }
+})
