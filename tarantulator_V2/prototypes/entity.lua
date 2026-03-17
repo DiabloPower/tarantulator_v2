@@ -43,7 +43,7 @@ data:extend({
 			type = 'burner',
 			fuel_inventory_size = 2,
 			burnt_inventory_size = 1,
-			fuel_categories = {'nuclear', 'ei-nuclear-fuel', 'ei-nuclear-fuel-cell', 'ei-fusion-fuel'},
+			fuel_categories = {'nuclear'},
 			effectivity = 0.5,
 		},
 		height = 2.25,
