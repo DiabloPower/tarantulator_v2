@@ -13,3 +13,8 @@ local tarantulator = data.raw["spider-vehicle"]["tarantulator"]
 if tarantulator then
 	tarantulator.allow_remote_driving = true
 end
+
+-- Check for the presence of the "Exotic Space Industries Remembrance" mod and load compatibility if it is installed.
+if mods["exotic-space-industries-remembrance"] then
+    require("prototypes.compatibility.esi")
+end

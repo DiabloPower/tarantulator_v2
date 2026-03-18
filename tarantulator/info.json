@@ -1,6 +1,6 @@
 {
   "name": "tarantulator",
-  "version": "2.1.16",
+  "version": "2.1.17",
   "title": "Tarantulator",
   "author": "DiabloPower, originally by notnotmelon",
   "dependencies": [ 
@@ -10,7 +10,8 @@
       "? assault_spidertron_V2",
       "? SpidertronEnhancements",
       "? bobenemies",
-      "? Factorio-Tiberium"],
+      "? Factorio-Tiberium",
+      "(?) exotic-space-industries-remembrance"],
   "description": "Spidertron not enough for you? Try the nuclear powered Tarantulator instead! It's bigger, badder, and has a giant Railgun.",
   "factorio_version": "2.0",
   "homepage": "https://github.com/DiabloPower/tarantulator"
