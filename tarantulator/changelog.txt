@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.18 (In 2.1.17 EnderN3x forgot to include a changelog, so an additional version bump necessary to fix)
+Date: 2026-03-18
+  Added:
+    - Compatability with fuel cells from Exotic Space Industries Remebrance
+      Submitted By: EnderN3x
+---------------------------------------------------------------------------------------------------
 Version: 2.1.16
 Date: 2026-01-14
   Fixed:
