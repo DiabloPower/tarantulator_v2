@@ -21,6 +21,7 @@ When Size matters! - Tarantulator, Spidertron, [Assault Spidertron](https://gith
 
 ## Credits
 - A big thank you to [notnotmelon](https://mods.factorio.com/user/notnotmelon) for the original mod!
+- thanks to [EnderN3x](https://mods.factorio.com/user/EnderN3x) for the compatibility patch with fuel cells from Exotic Space Industries Remembrance
 
 
 **Changelog:**  
